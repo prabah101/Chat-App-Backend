@@ -31,7 +31,7 @@ const server = app.listen(process.env.PORT, () => {
 
 const io = socket(server, {
     cors: {
-        origin: true,
+        origin: "https://converse-chat-app-cheery-lollipop-23.netlify.app",
         credentials: true
     }
 })
